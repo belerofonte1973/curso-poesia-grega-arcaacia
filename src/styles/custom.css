@@ -1,0 +1,298 @@
+/* Custom CSS for Curso Poesia Grega Arcaica */
+
+/* Reset & Base */
+:root {
+  --font-serif: 'Georgia', 'Times New Roman', serif;
+  --font-sans: 'Inter', system-ui, sans-serif;
+}
+
+/* Header */
+header.header {
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+  border-bottom: none;
+}
+
+header.header .site-title {
+  color: #e8e8e8;
+  font-weight: 600;
+}
+
+/* Sidebar */
+.sidebar-pane {
+  background: #f8f6f0;
+}
+
+.sidebar-pane a {
+  color: #2c3e50;
+  font-size: 0.9rem;
+}
+
+.sidebar-pane a[aria-current="page"] {
+  color: #8b4513;
+  font-weight: 600;
+  background: rgba(139, 69, 19, 0.08);
+  border-left: 3px solid #8b4513;
+}
+
+.sidebar-pane a:hover {
+  color: #8b4513;
+  background: rgba(139, 69, 19, 0.05);
+}
+
+/* Content */
+.content-panel {
+  background: #fff;
+}
+
+.content-panel h1 {
+  font-family: var(--font-serif);
+  color: #1a1a2e;
+  border-bottom: 2px solid #8b4513;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.content-panel h2 {
+  font-family: var(--font-serif);
+  color: #2c3e50;
+  margin-top: 2.5rem;
+  border-bottom: 1px solid #e0dcd0;
+  padding-bottom: 0.3rem;
+}
+
+.content-panel h3 {
+  color: #34495e;
+  font-weight: 600;
+}
+
+.content-panel p {
+  line-height: 1.8;
+  color: #2c3e50;
+}
+
+.content-panel blockquote {
+  border-left: 4px solid #8b4513;
+  background: #fdfbf7;
+  padding: 1rem 1.5rem;
+  margin: 1.5rem 0;
+  font-style: italic;
+  color: #555;
+}
+
+.content-panel blockquote p {
+  margin: 0;
+}
+
+.content-panel ul, .content-panel ol {
+  line-height: 1.8;
+}
+
+.content-panel li {
+  margin-bottom: 0.4rem;
+}
+
+.content-panel code {
+  background: #f0ebe0;
+  color: #8b4513;
+  padding: 0.15em 0.4em;
+  border-radius: 3px;
+  font-size: 0.9em;
+}
+
+/* Tables */
+.content-panel table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  font-size: 0.9rem;
+}
+
+.content-panel th {
+  background: #f8f6f0;
+  border: 2px solid #e0dcd0;
+  padding: 0.75rem 1rem;
+  text-align: left;
+  font-weight: 600;
+  color: #2c3e50;
+}
+
+.content-panel td {
+  border: 1px solid #e8e4d8;
+  padding: 0.6rem 1rem;
+}
+
+.content-panel tr:nth-child(even) {
+  background: #fdfbf7;
+}
+
+/* Links */
+.content-panel a {
+  color: #8b4513;
+  text-decoration: none;
+  border-bottom: 1px dotted #8b4513;
+  transition: border-bottom 0.2s;
+}
+
+.content-panel a:hover {
+  border-bottom: 2px solid #8b4513;
+}
+
+/* Cards & Components */
+.card {
+  background: #fff;
+  border: 1px solid #e0dcd0;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin: 1.5rem 0;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
+
+.card-title {
+  font-family: var(--font-serif);
+  font-size: 1.2rem;
+  color: #1a1a2e;
+  margin-top: 0;
+  border-bottom: none;
+}
+
+/* Aside / Callouts */
+.starlight-aside--note {
+  border-left-color: #3498db;
+  background: #ebf5fb;
+}
+
+.starlight-aside--tip {
+  border-left-color: #27ae60;
+  background: #eafaf1;
+}
+
+.starlight-aside--caution {
+  border-left-color: #f39c12;
+  background: #fef5e7;
+}
+
+.starlight-aside--danger {
+  border-left-color: #e74c3c;
+  background: #fdedec;
+}
+
+/* Tabs */
+starlight-tabs {
+  margin: 1.5rem 0;
+}
+
+.tab-item {
+  background: #fff;
+}
+
+/* TOC (Table of Contents) */
+.right-sidebar-panel {
+  font-size: 0.85rem;
+}
+
+.right-sidebar-panel a {
+  color: #7f8c8d;
+}
+
+.right-sidebar-panel a:hover {
+  color: #8b4513;
+}
+
+/* Dark mode adjustments */
+:root[data-theme='dark'] {
+  color-scheme: dark;
+}
+
+:root[data-theme='dark'] .sidebar-pane {
+  background: #1a1a2e;
+}
+
+:root[data-theme='dark'] .sidebar-pane a {
+  color: #bdc3c7;
+}
+
+:root[data-theme='dark'] .sidebar-pane a[aria-current="page"] {
+  color: #d4a574;
+  background: rgba(212, 165, 116, 0.1);
+  border-left-color: #d4a574;
+}
+
+:root[data-theme='dark'] .content-panel {
+  background: #16213e;
+}
+
+:root[data-theme='dark'] .content-panel h1,
+:root[data-theme='dark'] .content-panel h2,
+:root[data-theme='dark'] .content-panel h3 {
+  color: #ecf0f1;
+}
+
+:root[data-theme='dark'] .content-panel p,
+:root[data-theme='dark'] .content-panel li {
+  color: #bdc3c7;
+}
+
+:root[data-theme='dark'] .content-panel blockquote {
+  background: #1f2d44;
+  color: #bdc3c7;
+}
+
+:root[data-theme='dark'] .content-panel a {
+  color: #d4a574;
+  border-bottom-color: #d4a574;
+}
+
+:root[data-theme='dark'] .content-panel th {
+  background: #1a1a2e;
+  border-color: #34495e;
+  color: #ecf0f1;
+}
+
+:root[data-theme='dark'] .content-panel td {
+  border-color: #34495e;
+}
+
+:root[data-theme='dark'] .content-panel tr:nth-child(even) {
+  background: #1a253a;
+}
+
+:root[data-theme='dark'] .card {
+  background: #1f2d44;
+  border-color: #34495e;
+}
+
+:root[data-theme='dark'] .card-title {
+  color: #ecf0f1;
+}
+
+:root[data-theme='dark'] .content-panel code {
+  background: #1a253a;
+  color: #d4a574;
+}
+
+/* Footer */
+footer {
+  background: #1a1a2e;
+  color: #bdc3c7;
+  padding: 2rem;
+  text-align: center;
+}
+
+footer a {
+  color: #d4a574;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .content-panel {
+    padding: 1rem;
+  }
+  
+  .content-panel h1 {
+    font-size: 1.6rem;
+  }
+  
+  .content-panel h2 {
+    font-size: 1.3rem;
+  }
+}

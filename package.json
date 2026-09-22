@@ -1,0 +1,20 @@
+{
+  "name": "curso-poesia-grega-arcaacia",
+  "version": "1.0.0",
+  "description": "Curso sobre Poesia Grega Arcaica: Lírica, Iambografia e Eleja",
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "verificar": "python scripts/verificar-site.py"
+  },
+  "dependencies": {
+    "@astrojs/starlight": "^0.30.0",
+    "astro": "^5.0.0",
+    "sharp": "^0.33.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
