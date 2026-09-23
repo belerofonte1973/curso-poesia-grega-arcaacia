@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="hero-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="50%" style="stop-color:#16213e"/>
+      <stop offset="100%" style="stop-color:#0f3460"/>
+    </linearGradient>
+    <linearGradient id="gold-hero" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#d4a574"/>
+      <stop offset="50%" style="stop-color:#f4d03f"/>
+      <stop offset="100%" style="stop-color:#d4a574"/>
+    </linearGradient>
+    <linearGradient id="text-gold" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#f4d03f"/>
+      <stop offset="100%" style="stop-color:#d4a574"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Fundo -->
+  <rect width="1200" height="630" fill="url(#hero-bg)"/>
+  
+  <!-- Padrão grego (meandro) -->
+  <g fill="none" stroke="rgba(212,165,116,0.15)" stroke-width="2">
+    <path d="M 0 580 L 50 580 L 50 530 L 100 530 L 100 580 L 150 580 L 150 530 L 200 530 L 200 580 L 250 580 L 250 530 L 300 530 L 300 580 L 350 580 L 350 530 L 400 530 L 400 580 L 450 580 L 450 530 L 500 530 L 500 580 L 550 580 L 550 530 L 600 530 L 600 580 L 650 580 L 650 530 L 700 530 L 700 580 L 750 580 L 750 530 L 800 530 L 800 580 L 850 580 L 850 530 L 900 530 L 900 580 L 950 580 L 950 530 L 1000 530 L 1000 580 L 1050 580 L 1050 530 L 1100 530 L 1100 580 L 1150 580 L 1150 530 L 1200 530"/>
+    <path d="M 0 530 L 50 530 L 50 480 L 100 480 L 100 530 L 150 530 L 150 480 L 200 480 L 200 530 L 250 530 L 250 480 L 300 480 L 300 530 L 350 530 L 350 480 L 400 480 L 400 530 L 450 530 L 450 480 L 500 480 L 500 530 L 550 530 L 550 480 L 600 480 L 600 530 L 650 530 L 650 480 L 700 480 L 700 530 L 750 530 L 750 480 L 800 480 L 800 530 L 850 530 L 850 480 L 900 480 L 900 530 L 950 530 L 950 480 L 1000 480 L 1000 530 L 1050 530 L 1050 480 L 1100 480 L 1100 530 L 1150 530 L 1150 480 L 1200 480"/>
+  </g>
+  
+  <!-- Linha dourada superior -->
+  <line x1="100" y1="80" x2="1100" y2="80" stroke="url(#gold-hero)" stroke-width="2"/>
+  
+  <!-- Coroa de louros -->
+  <g fill="none" stroke="url(#gold-hero)" stroke-width="2.5" stroke-linecap="round">
+    <!-- Lado esquerdo -->
+    <path d="M 200 180 Q 180 150 200 130 Q 220 110 200 90"/>
+    <path d="M 215 190 Q 190 158 210 135 Q 230 115 208 95"/>
+    <path d="M 235 200 Q 205 168 225 142 Q 245 122 225 102"/>
+    <path d="M 260 210 Q 225 178 245 152 Q 265 132 245 112"/>
+    <path d="M 290 220 Q 255 188 272 162 Q 290 142 272 122"/>
+    <path d="M 325 230 Q 285 198 302 172 Q 320 152 302 132"/>
+    <path d="M 365 240 Q 320 208 337 182 Q 355 162 337 142"/>
+    <!-- Lado direito -->
+    <path d="M 1000 180 Q 1020 150 1000 130 Q 980 110 1000 90"/>
+    <path d="M 985 190 Q 1010 158 990 135 Q 970 115 992 95"/>
+    <path d="M 965 200 Q 995 168 975 142 Q 955 122 975 102"/>
+    <path d="M 940 210 Q 975 178 955 152 Q 935 132 955 112"/>
+    <path d="M 910 220 Q 945 188 928 162 Q 910 142 928 122"/>
+    <path d="M 875 230 Q 915 198 898 172 Q 880 152 898 132"/>
+    <path d="M 835 240 Q 880 208 863 182 Q 845 162 863 142"/>
+  </g>
+  
+  <!-- Título -->
+  <text x="600" y="220" text-anchor="middle" font-family="Georgia, serif" font-size="52" fill="url(#text-gold)" font-weight="bold" letter-spacing="4">POESIA GREGA ARCAICA</text>
+  
+  <!-- Subtítulo -->
+  <text x="600" y="280" text-anchor="middle" font-family="Georgia, serif" font-size="24" fill="#d4a574" font-style="italic">Lírica, Iambografia e Eleja</text>
+  
+  <!-- Linha dourada inferior -->
+  <line x1="100" y1="320" x2="1100" y2="320" stroke="url(#gold-hero)" stroke-width="2"/>
+  
+  <!-- Descrição -->
+  <text x="600" y="380" text-anchor="middle" font-family="Georgia, serif" font-size="18" fill="#bdc3c7">Um curso acadêmico sobre a poesia grega arcaica não épica</text>
+  <text x="600" y="415" text-anchor="middle" font-family="Georgia, serif" font-size="18" fill="#bdc3c7">Sáfo • Alceu • Anacreonte • Estesícoro • Píndaro • Arquiloco • Simônides</text>
+  
+  <!-- Período -->
+  <text x="600" y="480" text-anchor="middle" font-family="Georgia, serif" font-size="16" fill="#7f8c8d">Grécia Arcaica — séculos VIII a V a.C.</text>
+  
+  <!-- Coroas de louros verticais -->
+  <g fill="none" stroke="url(#gold-hero)" stroke-width="1.5" stroke-linecap="round" opacity="0.6">
+    <path d="M 150 350 Q 145 380 150 410 Q 155 440 150 470 Q 145 500 150 530 Q 155 560 150 590"/>
+    <path d="M 1050 350 Q 1055 380 1050 410 Q 1045 440 1050 470 Q 1055 500 1050 530 Q 1045 560 1050 590"/>
+  </g>
+</svg>

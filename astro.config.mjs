@@ -12,7 +12,7 @@ export default defineConfig({
   },
   integrations: [
     starlight({
-      title: 'Poesia Grega Arcaía — Curso',
+      title: 'Poesia Grega Arcaica — Curso',
       description: 'Lírica, Iambografia e Eleja na Grécia Arcaica',
       favicon: '/favicon.svg',
       head: [
