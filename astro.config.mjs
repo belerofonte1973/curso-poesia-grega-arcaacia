@@ -3,7 +3,8 @@ import starlight from '@astrojs/starlight';
 import { fileURLToPath } from 'node:url';
 
 export default defineConfig({
-  site: 'https://curso-poesia-grega-arcaacia.netlify.app',
+  site: 'https://belerofonte1973.github.io',
+  base: '/curso-poesia-grega-arcaacia',
   title: 'Poesia Grega Arcaica',
   description: 'Curso sobre Lírica, Iambografia e Eleja na Grécia Arcaica (séc. VIII–V a.C.)',
   logo: {
